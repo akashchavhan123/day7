@@ -1,10 +1,7 @@
 #!/bin/bash -x
 
 array=(10 20 -30)
-sum=0
-for n in ${a[@]}
+sum=$(( array[0] + array[1] + array[2] ))
 
-do 	sum= $sum+$n
 
-done
 echo "$sum"
